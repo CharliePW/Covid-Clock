@@ -37,4 +37,4 @@ Author: Charles Pearman-Wright (c)
 
 Licence: MIT License
 
-Link to github: ** enter link **
+Link to github: https://github.com/CharliePW/Covid-Clock
