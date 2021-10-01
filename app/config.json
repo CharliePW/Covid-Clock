@@ -1,0 +1,17 @@
+{
+"weather": {
+      "base_url":"http://api.openweathermap.org/data/2.5/weather?",
+      "api-key":"cf1a49edc39397b744e3896a6e478407",
+      "city":"Exeter"
+      },
+"news": {
+      "base_url":"https://newsapi.org/v2/top-headlines?",
+      "api-key":"f6057a276c3e43d29f2465e8f2fd4d87",
+      "country":"gb",
+      "source":""
+      },
+"covid": {
+      "base_url":"https://api.coronavirus.data.gov.uk/v1/data?",
+      "city":"Exeter"
+      }
+}

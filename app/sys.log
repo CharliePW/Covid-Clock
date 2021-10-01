@@ -1,0 +1,1348 @@
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 15:35:17] "[32mGET / HTTP/1.1[0m" 302 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaName=Exeter&structure=%7B%22date%22:%22date%22,%22newCases%22:%22newCasesByPublishDate%22%7D HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 15:35:17] "[37mGET /index HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:urllib3.connectionpool:https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=f6057a276c3e43d29f2465e8f2fd4d87 HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 15:35:47] "[37mGET /index?alarm=&two=news+briefings&news=news HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.openweathermap.org:80
+DEBUG:urllib3.connectionpool:http://api.openweathermap.org:80 "GET /data/2.5/weather?appid=cf1a49edc39397b744e3896a6e478407&q=Exeter HTTP/1.1" 200 458
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 15:36:00] "[37mGET /index?alarm=&two=weather&weather=weather HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 15:36:13] "[37mGET /index?notif=Latest+covid+data+in+your+area HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 15:36:16] "[37mGET /index?notif=What+Dean+Henderson+said+at+Southampton+highlighted+his+importance+to+Manchester+United+-+Manchester+Evening+News HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 15:36:17] "[37mGET /index?notif=Schoolgirls+who+found+£700+in+the+street+knew+exactly+what+to+do+with+it+-+Liverpool+Echo HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 15:36:18] "[37mGET /index?notif=Martin+Brundle%3A+Romain+Grosjean%27s+crash%2C+escape+and+the+miracles+of+Bahrain+-+Sky+Sports HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 15:36:20] "[37mGET /index?notif=%27We%27ve+had+enough%21%27+Brexiteer+rages+at+Boris+%27sacrificing%27+UK+fisheries+in+Brexit+talks+-+Daily+Express HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 15:36:21] "[37mGET /index?notif=Rita+Ora’s+apology+slammed+by+Piers+Morgan+as+he+says+‘she’s+only+sorry+she+got+caught’+after+flouting+lockdow+-+The+Sun HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 15:36:21] "[37mGET /index?notif=UK+coronavirus+live%3A+Gove+denies+Tory+MPs+being+denied+secret+data+on+impact+of+Covid+restrictions+-+The+Guardian HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 15:37:23] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 15:37:37] "[37mGET /index?notif=Covid+vaccinations+in+EU+unlikely+to+start+before+next+year+-+Financial+Times HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 15:37:38] "[37mGET /index?notif=Brexit+news+–+live%3A+Gove+admits+trade+talks+‘close+to+the+wire’+as+Ireland+‘hopeful’+of+deal+this+week+-+The+Independent HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 15:37:39] "[37mGET /index?notif=President+Trump+ties+Joe+Biden%27s+hands+with+new+China+sanctions+-+The+Times HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 15:37:43] "[37mGET /index?notif=This+Morning%3A+Rylan+Clark-Neal+voices+support+for+Eamonn+Holmes+and+Ruth+Langsford+after+reshuffle+-+The+Independent HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 15:37:44] "[37mGET /index?notif=Ant+and+Dec+confront+defiant+I%27m+A+Celeb+evictee+Beverley+Callard+-+Daily+Mail HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 15:37:45] "[37mGET /index?notif=Coronavirus+live+updates+as+countdown+to+end+of+lockdown+begins+-+Hull+Daily+Mail HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 15:37:45] "[37mGET /index?notif=Australian+telescope+maps+3+million+galaxies+in+just+300+hours+-+Aljazeera.com HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 15:37:46] "[37mGET /index?notif=Coronavirus+morning+headlines+as+Welsh+pub+and+restaurant+alcohol+ban+is+heavily+criticised+-+Wales+Online HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 15:37:47] "[37mGET /index?notif=How+I%27m+A+Celebrity%27s+Beverley+Callard+coped+with+cancer+thanks+to+Julie+Goodyear+-+Mirror+Online HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 15:38:48] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 15:39:51] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 15:40:51] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 15:41:51] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 15:42:51] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 15:43:53] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 15:44:53] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 15:45:53] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 15:46:55] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 15:49:24] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 15:50:26] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 15:51:26] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 15:52:26] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 15:53:26] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 15:54:26] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 16:04:01] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 16:05:01] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 16:06:01] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 16:07:01] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 16:08:01] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 16:09:02] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 16:10:02] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 16:11:02] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 16:12:02] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 16:13:02] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 16:14:02] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 16:15:02] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 16:16:02] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 16:17:02] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 16:18:02] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 16:19:03] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 16:20:03] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 16:21:03] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 16:22:03] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 16:23:03] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 16:24:03] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 16:30:53] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 16:31:54] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 16:32:54] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 16:33:54] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 16:34:54] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 16:35:54] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 16:36:54] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 16:37:54] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 16:38:54] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 16:39:54] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 16:40:54] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 16:41:54] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 16:42:54] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 16:43:55] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 16:44:55] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 16:45:55] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 16:46:55] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 16:47:55] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 16:48:55] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 16:49:55] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 16:50:55] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 16:51:55] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 16:52:55] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 16:53:56] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 16:54:56] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 16:55:56] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 16:56:56] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 16:57:56] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 16:58:56] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 16:59:56] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 17:00:56] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 17:01:56] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 17:02:56] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 17:03:56] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 17:04:56] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 17:05:57] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 17:06:57] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 17:07:57] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 17:08:57] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 17:09:57] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 17:10:57] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 17:11:57] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 17:12:57] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 17:13:57] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 17:14:57] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 17:15:57] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 17:16:57] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 17:17:58] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 17:18:58] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 17:19:58] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 17:20:58] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 17:21:58] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 17:22:58] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 17:23:58] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 17:24:58] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 17:25:58] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 17:26:58] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 17:27:58] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 17:28:58] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 17:29:59] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 17:30:59] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 17:31:59] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 17:32:59] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 17:33:59] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 17:34:59] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 17:35:59] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 17:37:00] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 17:38:01] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 17:39:01] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 17:40:01] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 17:41:01] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 17:42:01] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 17:44:06] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 17:45:55] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaName=Exeter&structure=%7B%22date%22:%22date%22,%22newCases%22:%22newCasesByPublishDate%22%7D HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 17:46:56] "[37mGET /index HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:urllib3.connectionpool:https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=f6057a276c3e43d29f2465e8f2fd4d87 HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 17:47:04] "[37mGET /index?alarm=&two=+&news=news HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.openweathermap.org:80
+DEBUG:urllib3.connectionpool:http://api.openweathermap.org:80 "GET /data/2.5/weather?appid=cf1a49edc39397b744e3896a6e478407&q=Exeter HTTP/1.1" 200 472
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 17:47:26] "[37mGET /index?alarm=&two=+&weather=weather HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 17:48:16] "[37mGET /index?alarm=2020-12-01T17%3A49&two=alarm HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 17:49:16] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 17:49:29] "[37mGET /index?alarm_item=alarm HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 17:49:34] "[37mGET /index?alarm=2020-12-01T17%3A50&two=+ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 17:50:34] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 17:51:35] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 17:52:35] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 17:53:35] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 17:54:35] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 17:55:35] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 17:56:35] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 17:57:35] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 17:58:35] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 17:59:36] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 18:00:38] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 18:01:25] "[32mGET / HTTP/1.1[0m" 302 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaName=Exeter&structure=%7B%22date%22:%22date%22,%22newCases%22:%22newCasesByPublishDate%22%7D HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 18:01:26] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 18:02:26] "[37mGET /index HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:urllib3.connectionpool:https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=f6057a276c3e43d29f2465e8f2fd4d87 HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 18:02:31] "[37mGET /index?alarm=&two=+&news=news HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 18:02:45] "[37mGET /index?alarm=2020-12-01T18%3A03&two=alarm HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 18:03:45] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 18:05:07] "[32mGET / HTTP/1.1[0m" 302 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaName=Exeter&structure=%7B%22date%22:%22date%22,%22newCases%22:%22newCasesByPublishDate%22%7D HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 18:05:08] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 18:05:14] "[37mGET /index?alarm=2020-12-01T18%3A06&two=alarm HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 18:06:15] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 18:07:15] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 18:08:15] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 18:09:15] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 18:11:09] "[32mGET / HTTP/1.1[0m" 302 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaName=Exeter&structure=%7B%22date%22:%22date%22,%22newCases%22:%22newCasesByPublishDate%22%7D HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 18:11:10] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaName=Exeter&structure=%7B%22date%22:%22date%22,%22newCases%22:%22newCasesByPublishDate%22%7D HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 18:12:16] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 18:12:17] "[32mGET / HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 18:12:17] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 18:12:24] "[37mGET /index?alarm=2020-12-01T18%3A13&two=alarm HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 18:13:24] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 18:14:13] "[32mGET / HTTP/1.1[0m" 302 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaName=Exeter&structure=%7B%22date%22:%22date%22,%22newCases%22:%22newCasesByPublishDate%22%7D HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 18:14:13] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 18:14:48] "[37mGET /index?alarm=2020-12-01T18%3A15&two=alarm HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 18:15:48] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 18:16:48] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 18:17:48] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 18:17:53] "[37mGET /index?alarm_item=alarm HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 18:18:53] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 18:19:55] "[37mGET /index HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:urllib3.connectionpool:https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=f6057a276c3e43d29f2465e8f2fd4d87 HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 18:20:42] "[37mGET /index?alarm=&two=news&news=news HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 18:21:44] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 18:22:44] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 18:23:44] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 18:24:44] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 18:24:52] "[37mGET /index?alarm=2020-12-01T18%3A25&two=+ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 18:25:52] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 18:25:59] "[37mGET /index?alarm_item=+ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 18:26:59] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 18:28:00] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 18:29:01] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 18:30:03] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 18:31:04] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 18:32:04] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 18:33:06] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 18:34:06] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 18:35:06] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 18:36:08] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 18:37:08] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 18:38:08] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 18:39:09] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 18:40:09] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 18:41:11] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 18:42:11] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 18:43:12] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 18:44:13] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 18:45:14] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 18:46:14] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 18:47:14] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 18:48:14] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 18:49:14] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 18:50:14] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 19:06:29] "[32mGET / HTTP/1.1[0m" 302 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaName=Exeter&structure=%7B%22date%22:%22date%22,%22newCases%22:%22newCasesByPublishDate%22%7D HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 19:06:29] "[37mGET /index HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:urllib3.connectionpool:https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=f6057a276c3e43d29f2465e8f2fd4d87 HTTP/1.1" 200 None
+ERROR:main:Exception on /index [GET]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/charliewright/Documents/Exeter/Year 1/Programming/Continuous Assignments/CA3/main.py", line 80, in schedule_event
+    news_list = get_news()
+  File "/Users/charliewright/Documents/Exeter/Year 1/Programming/Continuous Assignments/CA3/news_filter.py", line 41, in get_news
+    notifications.append(notification)
+NameError: name 'notifications' is not defined
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 19:06:34] "[35m[1mGET /index?alarm=&two=+&news=news HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 19:07:44] "[32mGET / HTTP/1.1[0m" 302 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaName=Exeter&structure=%7B%22date%22:%22date%22,%22newCases%22:%22newCasesByPublishDate%22%7D HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 19:07:44] "[37mGET /index HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:urllib3.connectionpool:https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=f6057a276c3e43d29f2465e8f2fd4d87 HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 19:07:49] "[37mGET /index?alarm=&two=+&news=news HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 19:09:09] "[32mGET / HTTP/1.1[0m" 302 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaName=Exeter&structure=%7B%22date%22:%22date%22,%22newCases%22:%22newCasesByPublishDate%22%7D HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 19:09:10] "[37mGET /index HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:urllib3.connectionpool:https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=f6057a276c3e43d29f2465e8f2fd4d87 HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 19:09:13] "[37mGET /index?alarm=&two=+&news=news HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 19:10:20] "[37mGET /index?notif=Trump+has+raised+%24170+million+since+Election+Day+with+appeal+for+his+%27defense+fund%27+-+Daily+Mail HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 19:10:21] "[37mGET /index?notif=China%27s+sample-return+Moon+mission+touches+down+-+BBC+News HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 19:10:22] "[37mGET /index?notif=Lewis+Hamilton+has+coronavirus+with+‘mild+symptoms’+and+is+set+to+miss+rest+of+F1+season+after+champ+tests+pos+-+The+Sun HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.openweathermap.org:80
+DEBUG:urllib3.connectionpool:http://api.openweathermap.org:80 "GET /data/2.5/weather?appid=cf1a49edc39397b744e3896a6e478407&q=Exeter HTTP/1.1" 200 471
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 19:11:29] "[37mGET /index?alarm=&two=+&weather=weather HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 19:11:52] "[37mGET /index?alarm=2020-12-01T19%3A12&two=alarm HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 19:11:57] "[37mGET /index?alarm=2020-12-01T19%3A13&two=+ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 19:11:59] "[37mGET /index?alarm_item=+ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 19:12:00] "[37mGET /index?alarm_item=alarm HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 19:12:04] "[37mGET /index?notif=Rishi+Sunak’s+tourist+VAT+tax+will+kill+jobs+and+hold+back+economy’s+recovery+from+coronavirus+-+Evening+Standard HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 19:12:04] "[37mGET /index?notif=UK+likely+to+axe+finance+bill+clauses+if+Brexit+trade+deal+made+-+The+Guardian HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 19:12:05] "[37mGET /index?notif=Frost%2C+snow+and+hail+as+England%27s+lockdown+ends+and+winter+begins+-+Sky+News HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 19:12:05] "[37mGET /index?notif=Car+ploughs+into+crowd+of+pedestrians+in+German+city+of+Trier+-+The+Guardian HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 19:12:06] "[37mGET /index?notif=Macron+threatens+to+vote+down+Brexit+deal+as+French+president+refuses+to+budge+on+fishing+-+Daily+Express HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 19:12:06] "[37mGET /index?notif=Nicola+Sturgeon+confirms+new+lockdown+levels+for+all+of+Scotland%27s+council+areas+-+Daily+Record HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 19:12:06] "[37mGET /index?notif=Rita+Ora%27s+NHS+worker+mother+Vera+visits+her+daughter%27s+home+after+star+flouted+lockdown+rules+-+Daily+Mail HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 19:12:07] "[37mGET /index?notif=Boris+Johnson+pledges+£1%2C000+grant+for+every+%27wet+pub%27+forced+to+shut+-+Daily+Mail HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 19:12:07] "[37mGET /index?notif=Romain+Grosjean%3A+Haas+driver+%27saw+death+coming%27+in+crash+-+BBC+Sport HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 19:12:07] "[37mGET /index?notif=Coronavirus+latest%3A+Weekly+excess+deaths+surpass+2000+in+England+and+Wales+-+Financial+Times HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 19:12:08] "[37mGET /index?notif=Sony+Designed+PS5%27s+Biggest+Feature+Around+Thriving+Single+Player+Games+-+Push+Square HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 19:12:08] "[37mGET /index?notif=Team+and+injury+news%3A+Man+United+v+Paris+Saint-Germain+-+Manchester+United HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 19:12:08] "[37mGET /index?notif=Lorraine+viewers+slam+host+for+%27ruining%27+Beverley+Callard+surprise+-+Manchester+Evening+News HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 19:12:09] "[37mGET /index?notif=Crossrail+work+to+continue+after+£825m+government+loan+-+The+Guardian HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 19:12:09] "[37mGET /index?notif=Hugging+set+to+resume+in+England%27s+care+homes+with+rapid+Covid+tests+-+The+Guardian HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 19:12:09] "[37mGET /index?notif=Liverpool+line-ups+vs+Ajax+as+Diogo+Jota+benched+and+Fabinho+decision+made+-+Liverpool+Echo HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 19:12:10] "[37mGET /index?notif=COVID-19%3A+ONS+data+reveals+2%2C697+deaths+recorded+in+England+and+Wales+-+highest+since+May+-+Sky+News HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 19:12:20] "[37mGET /index?notif=The+weather+in+Exeter%3A HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 19:15:30] "[32mGET / HTTP/1.1[0m" 302 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaName=Exeter&structure=%7B%22date%22:%22date%22,%22newCases%22:%22newCasesByPublishDate%22%7D HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 19:15:31] "[37mGET /index HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:urllib3.connectionpool:https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=f6057a276c3e43d29f2465e8f2fd4d87 HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 19:15:36] "[37mGET /index?alarm=&two=+&news=news HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 19:16:34] "[32mGET / HTTP/1.1[0m" 302 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaName=Exeter&structure=%7B%22date%22:%22date%22,%22newCases%22:%22newCasesByPublishDate%22%7D HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 19:16:34] "[37mGET /index HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:urllib3.connectionpool:https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=f6057a276c3e43d29f2465e8f2fd4d87 HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 19:16:40] "[37mGET /index?alarm=&two=+&news=news HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.openweathermap.org:80
+DEBUG:urllib3.connectionpool:http://api.openweathermap.org:80 "GET /data/2.5/weather?appid=cf1a49edc39397b744e3896a6e478407&q=Exeter HTTP/1.1" 200 472
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 19:16:44] "[37mGET /index?alarm=&two=+&weather=weather HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 19:17:28] "[37mGET /index?notif=Rishi+Sunak’s+tourist+VAT+tax+will+kill+jobs+and+hold+back+economy’s+recovery+from+coronavirus+-+Evening+Standard HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 19:17:31] "[37mGET /index?notif=UK+likely+to+axe+finance+bill+clauses+if+Brexit+trade+deal+made+-+The+Guardian HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 19:17:31] "[37mGET /index?notif=China%27s+sample-return+Moon+mission+touches+down+-+BBC+News HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 19:17:32] "[37mGET /index?notif=Trump+has+raised+%24170+million+since+Election+Day+with+appeal+for+his+%27defense+fund%27+-+Daily+Mail HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 19:17:32] "[37mGET /index?notif=Lewis+Hamilton+has+coronavirus+with+‘mild+symptoms’+and+is+set+to+miss+rest+of+F1+season+after+champ+tests+pos+-+The+Sun HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 19:17:33] "[37mGET /index?notif=Frost%2C+snow+and+hail+as+England%27s+lockdown+ends+and+winter+begins+-+Sky+News HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 19:17:33] "[37mGET /index?notif=Car+ploughs+into+crowd+of+pedestrians+in+German+city+of+Trier+-+The+Guardian HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 19:17:34] "[37mGET /index?notif=Macron+threatens+to+vote+down+Brexit+deal+as+French+president+refuses+to+budge+on+fishing+-+Daily+Express HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 19:17:35] "[37mGET /index?notif=Nicola+Sturgeon+confirms+new+lockdown+levels+for+all+of+Scotland%27s+council+areas+-+Daily+Record HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 19:17:35] "[37mGET /index?notif=Rita+Ora%27s+NHS+worker+mother+Vera+visits+her+daughter%27s+home+after+star+flouted+lockdown+rules+-+Daily+Mail HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 19:17:36] "[37mGET /index?notif=Boris+Johnson+pledges+£1%2C000+grant+for+every+%27wet+pub%27+forced+to+shut+-+Daily+Mail HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 19:17:36] "[37mGET /index?notif=Romain+Grosjean%3A+Haas+driver+%27saw+death+coming%27+in+crash+-+BBC+Sport HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 19:17:37] "[37mGET /index?notif=Coronavirus+latest%3A+Weekly+excess+deaths+surpass+2000+in+England+and+Wales+-+Financial+Times HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 19:17:38] "[37mGET /index?notif=Sony+Designed+PS5%27s+Biggest+Feature+Around+Thriving+Single+Player+Games+-+Push+Square HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 19:17:38] "[37mGET /index?notif=Team+and+injury+news%3A+Man+United+v+Paris+Saint-Germain+-+Manchester+United HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 19:17:39] "[37mGET /index?notif=Lorraine+viewers+slam+host+for+%27ruining%27+Beverley+Callard+surprise+-+Manchester+Evening+News HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 19:17:40] "[37mGET /index?notif=Crossrail+work+to+continue+after+£825m+government+loan+-+The+Guardian HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 19:17:40] "[37mGET /index?notif=Hugging+set+to+resume+in+England%27s+care+homes+with+rapid+Covid+tests+-+The+Guardian HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 19:17:41] "[37mGET /index?notif=Liverpool+line-ups+vs+Ajax+as+Diogo+Jota+benched+and+Fabinho+decision+made+-+Liverpool+Echo HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 19:17:41] "[37mGET /index?notif=COVID-19%3A+ONS+data+reveals+2%2C697+deaths+recorded+in+England+and+Wales+-+highest+since+May+-+Sky+News HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.openweathermap.org:80
+DEBUG:urllib3.connectionpool:http://api.openweathermap.org:80 "GET /data/2.5/weather?appid=cf1a49edc39397b744e3896a6e478407&q=Exeter HTTP/1.1" 200 472
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 19:17:54] "[37mGET /index?alarm=&two=++&weather=weather HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 19:18:07] "[37mGET /index?notif=Latest+covid+data+in+your+area HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 19:18:08] "[37mGET /index?notif=The+weather+in+Exeter%3A HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 19:18:08] "[37mGET /index?notif=The+weather+in+Exeter%3A HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaName=Exeter&structure=%7B%22date%22:%22date%22,%22newCases%22:%22newCasesByPublishDate%22%7D HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 19:18:12] "[37mGET /index?alarm=&two=+ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 19:18:15] "[37mGET /index?alarm=&two=+ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 19:18:23] "[37mGET /index?notif=Latest+covid+data+in+your+area HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaName=Exeter&structure=%7B%22date%22:%22date%22,%22newCases%22:%22newCasesByPublishDate%22%7D HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 19:18:26] "[37mGET /index?alarm=&two=+ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 19:18:32] "[37mGET /index?alarm=2020-12-01T19%3A19&two=+ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 19:18:49] "[37mGET /index?alarm=2020-12-17T19%3A20&two=+ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 19:18:52] "[37mGET /index?alarm_item=+ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 19:18:56] "[37mGET /index?alarm_item=+ HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 20:12:57] "[32mGET / HTTP/1.1[0m" 302 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaName=Exeter&structure=%7B%22date%22:%22date%22,%22newCases%22:%22newCasesByPublishDate%22%7D HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 20:12:58] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 20:13:07] "[37mGET /index?alarm=2020-12-01T20%3A14&two=alarm HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 20:14:09] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 20:14:28] "[37mGET /index?alarm=2020-12-01T20%3A15&two=+ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 20:15:28] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 20:16:30] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 20:16:39] "[37mGET /index?alarm_item=alarm HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 20:16:40] "[37mGET /index?alarm_item=+ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 20:16:50] "[37mGET /index?alarm=2020-12-01T20%3A17&two=alarm HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 20:17:50] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 20:20:12] "[32mGET / HTTP/1.1[0m" 302 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaName=Exeter&structure=%7B%22date%22:%22date%22,%22newCases%22:%22newCasesByPublishDate%22%7D HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 20:20:13] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 20:20:20] "[37mGET /index?alarm=2020-12-01T20%3A21&two=alarm HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 20:22:24] "[32mGET / HTTP/1.1[0m" 302 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaName=Exeter&structure=%7B%22date%22:%22date%22,%22newCases%22:%22newCasesByPublishDate%22%7D HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 20:22:24] "[37mGET /index HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:urllib3.connectionpool:https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=f6057a276c3e43d29f2465e8f2fd4d87 HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 20:22:32] "[37mGET /index?alarm=&two=+&news=news HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 20:22:44] "[37mGET /index?notif=Merkel+shamed%3A+Leaked+email+exposed+German+civil+servant+who+%27did+nothing+for+14+years%27+-+Daily+Express HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 20:22:53] "[37mGET /index?alarm=2020-12-01T20%3A23&two=Hello HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 20:23:53] "[37mGET /index HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.openweathermap.org:80
+DEBUG:urllib3.connectionpool:http://api.openweathermap.org:80 "GET /data/2.5/weather?appid=cf1a49edc39397b744e3896a6e478407&q=Exeter HTTP/1.1" 200 471
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 20:24:18] "[37mGET /index?alarm=&two=+&weather=weather HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 20:25:41] "[32mGET / HTTP/1.1[0m" 302 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaName=Exeter&structure=%7B%22date%22:%22date%22,%22newCases%22:%22newCasesByPublishDate%22%7D HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 20:25:41] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 20:25:49] "[37mGET /index?alarm=2020-12-01T20%3A26&two=+ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 20:26:50] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 20:27:50] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 20:28:50] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 20:29:50] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 20:30:50] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 20:31:50] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 20:32:51] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 20:33:51] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 20:34:51] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 20:35:51] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 20:36:51] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 20:37:51] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 20:38:51] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 20:39:51] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 20:40:53] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaName=Exeter&structure=%7B%22date%22:%22date%22,%22newCases%22:%22newCasesByPublishDate%22%7D HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 20:41:54] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 20:42:01] "[32mGET / HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 20:42:01] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 20:42:17] "[37mGET /index?alarm=2020-12-01T20%3A43&two=alarm HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 20:43:18] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 20:44:18] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 20:44:42] "[37mGET /index?alarm=2020-12-01T20%3A46&two=Alarm+2 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 20:45:42] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 20:46:42] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 22:31:17] "[32mGET / HTTP/1.1[0m" 302 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaName=Exeter&structure=%7B%22date%22:%22date%22,%22newCases%22:%22newCasesByPublishDate%22%7D HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 22:31:18] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 22:31:23] "[37mGET /index?alarm=2020-12-01T22%3A32&two=+ HTTP/1.1[0m" 200 -
+ERROR:root:PyTTSx3 Endloop error
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 22:32:25] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 22:32:36] "[37mGET /index?alarm=2020-12-01T22%3A33&two=+ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 22:33:38] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 22:33:47] "[37mGET /index?alarm=2020-12-01T22%3A34&two=Hello HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 22:34:47] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 22:34:51] "[37mGET /index?alarm_item=Hello HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 22:34:52] "[37mGET /index?alarm_item=+ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 22:34:53] "[37mGET /index?alarm_item=+ HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:urllib3.connectionpool:https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=f6057a276c3e43d29f2465e8f2fd4d87 HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 22:34:57] "[37mGET /index?alarm=&two=+&news=news HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.openweathermap.org:80
+DEBUG:urllib3.connectionpool:http://api.openweathermap.org:80 "GET /data/2.5/weather?appid=cf1a49edc39397b744e3896a6e478407&q=Exeter HTTP/1.1" 200 471
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2020 22:35:05] "[37mGET /index?alarm=&two=+&weather=weather HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 11:57:41] "[32mGET / HTTP/1.1[0m" 302 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaName=Exeter&structure=%7B%22date%22:%22date%22,%22newCases%22:%22newCasesByPublishDate%22%7D HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 11:57:42] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 11:57:42] "[36mGET /static/images/COVID.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 11:57:56] "[37mGET /index?alarm=2020-12-02T11%3A58&two=alarm HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 11:58:50] "[37mGET /index?alarm_item=alarm HTTP/1.1[0m" 200 -
+ERROR:root:PyTTSx3 Endloop error
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 11:59:50] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaName=Exeter&structure=%7B%22date%22:%22date%22,%22newCases%22:%22newCasesByPublishDate%22%7D HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:00:57] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:01:17] "[32mGET / HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:01:17] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:01:20] "[37mGET /index?notif=Latest+covid+data+in+your+area HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaName=Exeter&structure=%7B%22date%22:%22date%22,%22newCases%22:%22newCasesByPublishDate%22%7D HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:urllib3.connectionpool:https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=f6057a276c3e43d29f2465e8f2fd4d87 HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:01:26] "[37mGET /index?alarm=&two=+&news=news HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:01:29] "[33mGET /%7B%7D HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:01:34] "[33mGET /%7B%7D HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:01:39] "[33mGET /%7B%7D HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:02:16] "[33mGET /%7B%7D HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:02:21] "[33mGET /%7B%7D HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:02:25] "[37mGET /index?notif=Bonmarché+falls+into+administration+again+as+retail+crisis+mounts+–+live+updates+-+Telegraph.co.uk HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:02:27] "[37mGET /index?notif=Shop+worker+who+asked+man+to+remove+his+cap+is+attacked+at+counter+-+Liverpool+Echo HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:02:27] "[37mGET /index?notif=Matt+Hancock+hints+again+that+low-infection+areas+WILL+be+downgraded+in+two+weeks+-+Daily+Mail HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:02:28] "[37mGET /index?notif=GardaWorld+raises+bid+for+G4S+in+bitter+takeover+battle+-+Financial+Times HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:02:46] "[37mGET /index?notif=Latest+covid+data+in+your+area HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.openweathermap.org:80
+DEBUG:urllib3.connectionpool:http://api.openweathermap.org:80 "GET /data/2.5/weather?appid=cf1a49edc39397b744e3896a6e478407&q=Exeter HTTP/1.1" 200 466
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:02:51] "[37mGET /index?alarm=&two=+&weather=weather HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:02:57] "[37mGET /index?notif=The+weather+in+Exeter%3A HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:02:58] "[37mGET /index?notif=Mauricio+Pochettino+%27becomes+favourite+ahead+of+Raul+to+replace+Zinedine+Zidane%27+as+Real+Madrid+boss+-+Daily+Mail HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:02:59] "[37mGET /index?notif=Hong+Kong+activist+Joshua+Wong+jailed+for+2019+‘illegal+assembly’+-+Aljazeera.com HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:02:59] "[37mGET /index?notif=Health+Secretary+Matt+Hancock+vows+to+get+Covid+vaccine+live+on+TV+with+Piers+Morgan+-+Mirror+Online HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:03:00] "[37mGET /index?notif=Caoimhin+Kelleher%3A+Liverpool’s+striker-turned-goalkeeper+who+Jurgen+Klopp+must+start+this+weekend+-+The+Independent HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:03:00] "[37mGET /index?notif=Tesco+to+repay+£585m+of+Covid-19+business+rates+relief+–+business+live+-+The+Guardian HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:03:01] "[37mGET /index?notif=Mick+Schumacher+to+join+Haas+for+2021+season+-+BBC+Sport HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:03:01] "[37mGET /index?notif=Michel+Barnier+phones+EU27-+prepare+for+no+deal+Brexit+–+three+main+issues+not+resolved+-+Daily+Express HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:03:01] "[37mGET /index?notif=Covid+Pfizer+vaccine+approved+for+use+next+week+in+UK+-+BBC+News HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:03:02] "[37mGET /index?notif=Donald+Trump+vows+to+run+for+president+again+‘in+four+years’+-+Metro.co.uk HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:03:02] "[37mGET /index?notif=England+wakes+up+to+life+after+lockdown+-+and+people+head+to+Primark+-+Daily+Mail HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:03:02] "[37mGET /index?notif=George+Russell+to+replace+Hamilton+at+Mercedes+for+Sakhir+Grand+Prix+-+Formula+1+RSS+UK HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:03:03] "[37mGET /index?notif=Georgia+official%3A+Trump+inciting+election+violence+-+BBC+News HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:03:07] "[37mGET /index?alarm=2020-12-02T12%3A04&two=+ HTTP/1.1[0m" 200 -
+ERROR:main:Exception on /index [GET]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/charliewright/Documents/Exeter/Year 1/Programming/Continuous Assignments/CA3/main.py", line 105, in schedule_event
+    s.cancel(e1)
+UnboundLocalError: local variable 'e1' referenced before assignment
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:03:24] "[35m[1mGET /index?alarm_item=+ HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:22:02] "[32mGET / HTTP/1.1[0m" 302 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaName=Exeter&structure=%7B%22date%22:%22date%22,%22newCases%22:%22newCasesByPublishDate%22%7D HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:22:02] "[37mGET /index HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:urllib3.connectionpool:https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=f6057a276c3e43d29f2465e8f2fd4d87 HTTP/1.1" 200 None
+ERROR:root:PyTTSx3 Endloop error
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:22:07] "[37mGET /index?alarm=&two=+&news=news HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:23:00] "[32mGET / HTTP/1.1[0m" 302 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaName=Exeter&structure=%7B%22date%22:%22date%22,%22newCases%22:%22newCasesByPublishDate%22%7D HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:23:00] "[37mGET /index HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:urllib3.connectionpool:https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=f6057a276c3e43d29f2465e8f2fd4d87 HTTP/1.1" 200 None
+ERROR:root:PyTTSx3 Endloop error
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:23:05] "[37mGET /index?alarm=&two=alarm&news=news HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:24:06] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:25:06] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:25:42] "[33mGET /http://127.0.0.1:5000/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:25:47] "[32mGET / HTTP/1.1[0m" 302 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaName=Exeter&structure=%7B%22date%22:%22date%22,%22newCases%22:%22newCasesByPublishDate%22%7D HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:25:47] "[37mGET /index HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:urllib3.connectionpool:https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=f6057a276c3e43d29f2465e8f2fd4d87 HTTP/1.1" 200 None
+ERROR:root:PyTTSx3 Endloop error
+ERROR:main:Exception on /index [GET]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/charliewright/Documents/Exeter/Year 1/Programming/Continuous Assignments/CA3/main.py", line 95, in schedule_event
+    item +=1
+TypeError: unsupported operand type(s) for +=: 'dict' and 'int'
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:25:52] "[35m[1mGET /index?alarm=&two=alarm&news=news HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:26:55] "[32mGET / HTTP/1.1[0m" 302 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaName=Exeter&structure=%7B%22date%22:%22date%22,%22newCases%22:%22newCasesByPublishDate%22%7D HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:26:55] "[37mGET /index HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:urllib3.connectionpool:https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=f6057a276c3e43d29f2465e8f2fd4d87 HTTP/1.1" 200 None
+ERROR:root:PyTTSx3 Endloop error
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:27:01] "[37mGET /index?alarm=&two=alarm&news=news HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:28:01] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:28:54] "[32mGET / HTTP/1.1[0m" 302 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaName=Exeter&structure=%7B%22date%22:%22date%22,%22newCases%22:%22newCasesByPublishDate%22%7D HTTP/1.1" 200 None
+ERROR:root:PyTTSx3 Endloop error
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:28:55] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:29:55] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:32:05] "[32mGET / HTTP/1.1[0m" 302 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaName=Exeter&structure=%7B%22date%22:%22date%22,%22newCases%22:%22newCasesByPublishDate%22%7D HTTP/1.1" 200 None
+ERROR:root:PyTTSx3 Endloop error
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:32:05] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:32:29] "[37mGET /index?notif=Latest+covid+data+in+your+area HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaName=Exeter&structure=%7B%22date%22:%22date%22,%22newCases%22:%22newCasesByPublishDate%22%7D HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:32:36] "[37mGET /index?alarm=&two=+ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:32:40] "[37mGET /index?notif=Latest+covid+data+in+your+area HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaName=Exeter&structure=%7B%22date%22:%22date%22,%22newCases%22:%22newCasesByPublishDate%22%7D HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:32:42] "[37mGET /index?alarm=&two=+ HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:urllib3.connectionpool:https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=f6057a276c3e43d29f2465e8f2fd4d87 HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:32:47] "[37mGET /index?alarm=&two=+&news=news HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:32:53] "[33mGET /%7B%7D HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:33:56] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:34:56] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:35:56] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:36:57] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:37:57] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:38:57] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaName=Exeter&structure=%7B%22date%22:%22date%22,%22newCases%22:%22newCasesByPublishDate%22%7D HTTP/1.1" 200 None
+ERROR:root:PyTTSx3 Endloop error
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:39:57] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:40:08] "[37mGET /index?alarm=&two=+ HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:urllib3.connectionpool:https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=f6057a276c3e43d29f2465e8f2fd4d87 HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:40:13] "[37mGET /index?alarm=&two=+&news=news HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:41:07] "[37mGET /index?notif=Bonmarché+falls+into+administration+again+as+retail+crisis+mounts+–+live+updates+-+Telegraph.co.uk HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:41:08] "[37mGET /index?notif=Shop+worker+who+asked+man+to+remove+his+cap+is+attacked+at+counter+-+Liverpool+Echo HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:41:14] "[37mGET /index?alarm=2020-12-02T12%3A42&two=Hello HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:41:16] "[37mGET /index?alarm_item=Hello HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:41:23] "[37mGET /index?alarm=2020-12-02T12%3A43&two=Hello HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:41:24] "[37mGET /index?alarm_item=Hello HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:42:25] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:43:25] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:43:59] "[32mGET / HTTP/1.1[0m" 302 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaName=Exeter&structure=%7B%22date%22:%22date%22,%22newCases%22:%22newCasesByPublishDate%22%7D HTTP/1.1" 200 None
+ERROR:root:PyTTSx3 Endloop error
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:44:00] "[37mGET /index HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:urllib3.connectionpool:https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=f6057a276c3e43d29f2465e8f2fd4d87 HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:44:08] "[37mGET /index?alarm=&two=+&news=news HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:44:18] "[37mGET /index?notif=Bonmarché+falls+into+administration+again+as+retail+crisis+mounts+–+live+updates+-+Telegraph.co.uk HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:45:18] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaName=Exeter&structure=%7B%22date%22:%22date%22,%22newCases%22:%22newCasesByPublishDate%22%7D HTTP/1.1" 200 None
+ERROR:root:PyTTSx3 Endloop error
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:46:20] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:46:32] "[32mGET / HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:46:32] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:46:36] "[37mGET /index?notif=Latest+covid+data+in+your+area HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaName=Exeter&structure=%7B%22date%22:%22date%22,%22newCases%22:%22newCasesByPublishDate%22%7D HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:46:40] "[37mGET /index?alarm=&two=+ HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:urllib3.connectionpool:https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=f6057a276c3e43d29f2465e8f2fd4d87 HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:47:04] "[37mGET /index?alarm=&two=+&news=news HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:47:38] "[32mGET / HTTP/1.1[0m" 302 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaName=Exeter&structure=%7B%22date%22:%22date%22,%22newCases%22:%22newCasesByPublishDate%22%7D HTTP/1.1" 200 None
+ERROR:root:PyTTSx3 Endloop error
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:47:38] "[37mGET /index HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:urllib3.connectionpool:https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=f6057a276c3e43d29f2465e8f2fd4d87 HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:47:42] "[37mGET /index?alarm=&two=+&news=news HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:48:06] "[37mGET /index?alarm=2020-12-02T12%3A49&two=+ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:48:18] "[37mGET /index?alarm=2020-12-02T12%3A47&two=+ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:48:21] "[37mGET /index?alarm_item=+ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:48:26] "[37mGET /index?alarm_item=+ HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.openweathermap.org:80
+DEBUG:urllib3.connectionpool:http://api.openweathermap.org:80 "GET /data/2.5/weather?appid=cf1a49edc39397b744e3896a6e478407&q=Exeter HTTP/1.1" 200 470
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:49:19] "[37mGET /index?alarm=&two=+&weather=weather HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:49:22] "[37mGET /index?notif=Bonmarché+falls+into+administration+again+as+retail+crisis+mounts+–+live+updates+-+Telegraph.co.uk HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:49:23] "[37mGET /index?notif=Latest+covid+data+in+your+area HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:49:26] "[37mGET /index?notif=The+weather+in+Exeter%3A HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.openweathermap.org:80
+DEBUG:urllib3.connectionpool:http://api.openweathermap.org:80 "GET /data/2.5/weather?appid=cf1a49edc39397b744e3896a6e478407&q=Exeter HTTP/1.1" 200 470
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:49:33] "[37mGET /index?alarm=&two=+&weather=weather HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:50:33] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:51:33] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:52:22] "[32mGET / HTTP/1.1[0m" 302 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaName=Exeter&structure=%7B%22date%22:%22date%22,%22newCases%22:%22newCasesByPublishDate%22%7D HTTP/1.1" 200 None
+ERROR:root:PyTTSx3 Endloop error
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:52:23] "[37mGET /index HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:urllib3.connectionpool:https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=f6057a276c3e43d29f2465e8f2fd4d87 HTTP/1.1" 200 None
+ERROR:main:Exception on /index [GET]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/charliewright/Documents/Exeter/Year 1/Programming/Continuous Assignments/CA3/main.py", line 92, in schedule_event
+    announe(news_list[0]["title"])
+NameError: name 'announe' is not defined
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:52:36] "[35m[1mGET /index?alarm=&two=+&news=news HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:53:09] "[32mGET / HTTP/1.1[0m" 302 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaName=Exeter&structure=%7B%22date%22:%22date%22,%22newCases%22:%22newCasesByPublishDate%22%7D HTTP/1.1" 200 None
+ERROR:root:PyTTSx3 Endloop error
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:53:09] "[37mGET /index HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.openweathermap.org:80
+DEBUG:urllib3.connectionpool:http://api.openweathermap.org:80 "GET /data/2.5/weather?appid=cf1a49edc39397b744e3896a6e478407&q=Exeter HTTP/1.1" 200 470
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:53:14] "[37mGET /index?alarm=&two=+&weather=weather HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:urllib3.connectionpool:https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=f6057a276c3e43d29f2465e8f2fd4d87 HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:53:28] "[37mGET /index?alarm=&two=+&news=news HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:56:35] "[32mGET / HTTP/1.1[0m" 302 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaName=Exeter&structure=%7B%22date%22:%22date%22,%22newCases%22:%22newCasesByPublishDate%22%7D HTTP/1.1" 200 None
+ERROR:root:PyTTSx3 Endloop error
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:56:36] "[37mGET /index HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:urllib3.connectionpool:https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=f6057a276c3e43d29f2465e8f2fd4d87 HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:56:42] "[37mGET /index?alarm=&two=+&news=news HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.openweathermap.org:80
+DEBUG:urllib3.connectionpool:http://api.openweathermap.org:80 "GET /data/2.5/weather?appid=cf1a49edc39397b744e3896a6e478407&q=Exeter HTTP/1.1" 200 466
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:56:53] "[37mGET /index?alarm=&two=+&weather=weather HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:57:01] "[37mGET /index?notif=The+weather+in+Exeter%3A HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:57:04] "[37mGET /index?notif=Bonmarché+falls+into+administration+again+as+retail+crisis+mounts+–+live+updates+-+Telegraph.co.uk HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:57:06] "[37mGET /index?notif=Latest+covid+data+in+your+area HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:57:08] "[37mGET /index?alarm=&two=+ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:57:10] "[37mGET /index?notif=Matt+Hancock+hints+again+that+low-infection+areas+WILL+be+downgraded+in+two+weeks+-+Daily+Mail HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:57:11] "[37mGET /index?notif=GardaWorld+raises+bid+for+G4S+in+bitter+takeover+battle+-+Financial+Times HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:57:12] "[37mGET /index?notif=Mauricio+Pochettino+%27becomes+favourite+ahead+of+Raul+to+replace+Zinedine+Zidane%27+as+Real+Madrid+boss+-+Daily+Mail HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:57:12] "[37mGET /index?notif=Hong+Kong+activist+Joshua+Wong+jailed+for+2019+‘illegal+assembly’+-+Aljazeera.com HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:57:13] "[37mGET /index?notif=Health+Secretary+Matt+Hancock+vows+to+get+Covid+vaccine+live+on+TV+with+Piers+Morgan+-+Mirror+Online HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:57:13] "[37mGET /index?notif=Caoimhin+Kelleher%3A+Liverpool’s+striker-turned-goalkeeper+who+Jurgen+Klopp+must+start+this+weekend+-+The+Independent HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:57:14] "[37mGET /index?notif=Tesco+to+repay+£585m+of+Covid-19+business+rates+relief+–+business+live+-+The+Guardian HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:57:19] "[37mGET /index?alarm=2020-12-02T12%3A56&two=+ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:57:27] "[37mGET /index?notif=Shop+worker+who+asked+man+to+remove+his+cap+is+attacked+at+counter+-+Liverpool+Echo HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:57:28] "[37mGET /index?notif=Mick+Schumacher+to+join+Haas+for+2021+season+-+BBC+Sport HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:57:28] "[37mGET /index?notif=Michel+Barnier+phones+EU27-+prepare+for+no+deal+Brexit+–+three+main+issues+not+resolved+-+Daily+Express HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:57:28] "[37mGET /index?notif=Covid+Pfizer+vaccine+approved+for+use+next+week+in+UK+-+BBC+News HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:57:29] "[37mGET /index?notif=Donald+Trump+vows+to+run+for+president+again+‘in+four+years’+-+Metro.co.uk HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:57:29] "[37mGET /index?notif=England+wakes+up+to+life+after+lockdown+-+and+people+head+to+Primark+-+Daily+Mail HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:57:29] "[37mGET /index?notif=George+Russell+to+replace+Hamilton+at+Mercedes+for+Sakhir+Grand+Prix+-+Formula+1+RSS+UK HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:57:30] "[37mGET /index?notif=Georgia+official%3A+Trump+inciting+election+violence+-+BBC+News HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:57:30] "[37mGET /index?notif=I’m+A+Celebrity+fans+angry+as+Jessica+Plummer+evicted+but+%27most+disliked%27+star+stays+-+Mirror+Online HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:57:30] "[37mGET /index?notif=Chang’e-5%3A+why+has+China+sent+a+probe+to+the+moon%3F+-+The+Guardian HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:57:30] "[37mGET /index?notif=%27Help+is+on+the+way%2C%27+says+Joe+Biden+as+he+announces+new+economic+team+–+video+-+The+Guardian HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:57:31] "[37mGET /index?notif=China+REFUSES+to+apologise+for+sharing+disturbing+fake+image+of+Australian+soldier+-+Daily+Express HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaName=Exeter&structure=%7B%22date%22:%22date%22,%22newCases%22:%22newCasesByPublishDate%22%7D HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 12:57:34] "[37mGET /index?alarm_item=+ HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 13:00:24] "[32mGET / HTTP/1.1[0m" 302 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaName=Exeter&structure=%7B%22date%22:%22date%22,%22newCases%22:%22newCasesByPublishDate%22%7D HTTP/1.1" 200 None
+ERROR:root:PyTTSx3 Endloop error
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 13:00:25] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 13:00:29] "[37mGET /index?alarm=2020-12-02T13%3A01&two=+ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 13:00:45] "[37mGET /index?alarm_item=+ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 13:00:46] "[37mGET /index?notif=This+is+an+alarm+notification HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 13:00:57] "[37mGET /index?alarm=2020-12-02T13%3A02&two=Alarm HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 13:01:58] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 13:02:58] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 13:03:05] "[37mGET /index?alarm_item=Alarm HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 13:03:07] "[37mGET /index?notif=This+is+an+alarm+notification HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.openweathermap.org:80
+DEBUG:urllib3.connectionpool:http://api.openweathermap.org:80 "GET /data/2.5/weather?appid=cf1a49edc39397b744e3896a6e478407&q=Exeter HTTP/1.1" 200 466
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 13:03:11] "[37mGET /index?alarm=&two=+&weather=weather HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.openweathermap.org:80
+DEBUG:urllib3.connectionpool:http://api.openweathermap.org:80 "GET /data/2.5/weather?appid=cf1a49edc39397b744e3896a6e478407&q=Exeter HTTP/1.1" 200 466
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 13:03:25] "[37mGET /index?alarm=&two=+&weather=weather HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 13:03:29] "[37mGET /index?notif=The+weather+in+Exeter%3A HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 13:03:30] "[37mGET /index?notif=The+weather+in+Exeter%3A HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:urllib3.connectionpool:https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=f6057a276c3e43d29f2465e8f2fd4d87 HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 13:03:35] "[37mGET /index?alarm=&two=+&news=news HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 13:04:35] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 13:05:26] "[37mGET /index?alarm=2020-12-02T13%3A06&two=alarm HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 13:05:33] "[37mGET /index?alarm_item=alarm HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 13:06:33] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 13:16:56] "[32mGET / HTTP/1.1[0m" 302 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaName=Exeter&structure=%7B%22date%22:%22date%22,%22newCases%22:%22newCasesByPublishDate%22%7D HTTP/1.1" 200 None
+ERROR:root:PyTTSx3 Endloop error
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 13:16:57] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 13:17:04] "[37mGET /index?alarm=2020-12-02T13%3A18&two=+ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 13:18:05] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 13:18:12] "[37mGET /index?alarm_item=+ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 13:18:14] "[37mGET /index?notif=This+is+an+alarm+notification HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 13:18:21] "[37mGET /index?alarm=2020-12-02T13%3A17&two=+ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 13:18:27] "[37mGET /index?alarm=2020-12-02T13%3A17&two=+ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 13:18:29] "[37mGET /index?alarm=2020-12-02T13%3A17&two=+ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 13:18:31] "[37mGET /index?alarm_item=+ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 13:18:31] "[37mGET /index?alarm_item=+ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 13:18:33] "[37mGET /index?notif=This+is+an+alarm+notification HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 13:18:34] "[37mGET /index?notif=This+is+an+alarm+notification HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:urllib3.connectionpool:https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=f6057a276c3e43d29f2465e8f2fd4d87 HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 13:18:40] "[37mGET /index?alarm=&two=+&news=news HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 13:18:58] "[37mGET /index?notif=Latest+covid+data+in+your+area HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.openweathermap.org:80
+DEBUG:urllib3.connectionpool:http://api.openweathermap.org:80 "GET /data/2.5/weather?appid=cf1a49edc39397b744e3896a6e478407&q=Exeter HTTP/1.1" 200 466
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 13:19:02] "[37mGET /index?alarm=&two=+&weather=weather HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 13:20:02] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 13:21:02] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 13:35:23] "[32mGET / HTTP/1.1[0m" 302 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaName=Exeter&structure=%7B%22date%22:%22date%22,%22newCases%22:%22newCasesByPublishDate%22%7D HTTP/1.1" 200 None
+ERROR:root:PyTTSx3 Endloop error
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 13:35:24] "[37mGET /index HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:urllib3.connectionpool:https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=f6057a276c3e43d29f2465e8f2fd4d87 HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 13:35:32] "[37mGET /index?alarm=&two=+&news=news HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.openweathermap.org:80
+DEBUG:urllib3.connectionpool:http://api.openweathermap.org:80 "GET /data/2.5/weather?appid=cf1a49edc39397b744e3896a6e478407&q=Exeter HTTP/1.1" 200 463
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 13:35:46] "[37mGET /index?alarm=&two=+&weather=weather HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 13:36:01] "[37mGET /index?alarm=2020-12-02T13%3A34&two=+ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 13:36:39] "[37mGET /index?alarm_item=+ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 13:36:44] "[37mGET /index?alarm=2020-12-02T13%3A37&two=+ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 13:36:49] "[37mGET /index?notif=This+is+an+alarm+notification HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 13:36:50] "[37mGET /index?notif=This+is+an+alarm+notification HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 13:36:54] "[37mGET /index?alarm_item=+ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 13:36:57] "[37mGET /index?notif=Latest+covid+data+in+your+area HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 13:36:59] "[37mGET /index?notif=Bonmarché+falls+into+administration+again+as+retail+crisis+mounts+–+live+updates+-+Telegraph.co.uk HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 13:37:00] "[37mGET /index?notif=Shop+worker+who+asked+man+to+remove+his+cap+is+attacked+at+counter+-+Liverpool+Echo HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 13:37:05] "[37mGET /index?alarm=2020-12-02T13%3A38&two=+ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 13:38:06] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 13:38:11] "[37mGET /index?alarm_item=+ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 13:38:12] "[37mGET /index?notif=This+is+an+alarm+notification HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 13:38:21] "[37mGET /index?alarm=2020-12-02T13%3A39&two=+ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 13:38:23] "[37mGET /index?notif=This+is+an+alarm+notification HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 13:39:23] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 13:40:23] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 13:40:32] "[37mGET /index?alarm_item=+ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 13:40:39] "[37mGET /index?alarm=2020-12-02T13%3A41&two=+ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 13:40:41] "[37mGET /index?notif=This+is+an+alarm+notification HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 13:41:41] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 13:42:41] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 13:43:42] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 13:44:42] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 13:45:42] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 13:46:42] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 13:47:42] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 13:48:05] "[37mGET /index?alarm=2020-12-02T13%3A49&two=Alarm+2 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 13:49:05] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 13:50:05] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 13:51:06] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 13:52:06] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 13:53:06] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 15:26:24] "[32mGET / HTTP/1.1[0m" 302 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaName=Exeter&structure=%7B%22date%22:%22date%22,%22newCases%22:%22newCasesByPublishDate%22%7D HTTP/1.1" 200 None
+ERROR:root:PyTTSx3 Endloop error
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 15:26:24] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 15:26:29] "[37mGET /index?notif=Latest+covid+data+in+your+area HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaName=Exeter&structure=%7B%22date%22:%22date%22,%22newCases%22:%22newCasesByPublishDate%22%7D HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 15:26:32] "[37mGET /index?notif=Latest+covid+data+in+your+area HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaName=Exeter&structure=%7B%22date%22:%22date%22,%22newCases%22:%22newCasesByPublishDate%22%7D HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:urllib3.connectionpool:https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=f6057a276c3e43d29f2465e8f2fd4d87 HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 15:26:43] "[37mGET /index?alarm=&two=+&news=news HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 15:27:12] "[37mGET /index?alarm=2020-12-02T15%3A28&two=+ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 15:28:13] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 15:28:14] "[37mGET /index?notif=This+is+an+alarm+notification HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 15:28:16] "[37mGET /index?alarm_item=+ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 15:28:25] "[37mGET /index?alarm=2020-12-02T15%3A29&two=+ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 15:29:26] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 15:30:26] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 15:31:26] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 15:32:13] "[32mGET / HTTP/1.1[0m" 302 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaName=Exeter&structure=%7B%22date%22:%22date%22,%22newCases%22:%22newCasesByPublishDate%22%7D HTTP/1.1" 200 None
+ERROR:root:PyTTSx3 Endloop error
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 15:32:14] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 15:32:20] "[37mGET /index?alarm=2020-12-02T15%3A33&two=+ HTTP/1.1[0m" 200 -
+ERROR:main:Exception on /index [GET]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/charliewright/Documents/Exeter/Year 1/Programming/Continuous Assignments/CA3/main.py", line 42, in schedule_event
+    s.run(blocking=False)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/sched.py", line 151, in run
+    action(*argument, **kwargs)
+TypeError: alarm_notification() takes 1 positional argument but 2 were given
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 15:33:20] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 15:34:26] "[32mGET / HTTP/1.1[0m" 302 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaName=Exeter&structure=%7B%22date%22:%22date%22,%22newCases%22:%22newCasesByPublishDate%22%7D HTTP/1.1" 200 None
+ERROR:root:PyTTSx3 Endloop error
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 15:34:27] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 15:34:34] "[37mGET /index?alarm=2020-12-02T15%3A33&two=+ HTTP/1.1[0m" 200 -
+ERROR:main:Exception on /index [GET]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/charliewright/Documents/Exeter/Year 1/Programming/Continuous Assignments/CA3/main.py", line 42, in schedule_event
+    s.run(blocking=False)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/sched.py", line 151, in run
+    action(*argument, **kwargs)
+TypeError: alarm_notification() takes 1 positional argument but 2 were given
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 15:34:46] "[35m[1mGET /index?alarm=2020-12-02T15%3A33&two=+ HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 15:36:44] "[32mGET / HTTP/1.1[0m" 302 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaName=Exeter&structure=%7B%22date%22:%22date%22,%22newCases%22:%22newCasesByPublishDate%22%7D HTTP/1.1" 200 None
+ERROR:root:PyTTSx3 Endloop error
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 15:36:44] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 15:36:52] "[37mGET /index?alarm=2020-12-02T15%3A35&two=+ HTTP/1.1[0m" 200 -
+ERROR:main:Exception on /index [GET]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/charliewright/Documents/Exeter/Year 1/Programming/Continuous Assignments/CA3/main.py", line 42, in schedule_event
+    s.run(blocking=False)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/sched.py", line 151, in run
+    action(*argument, **kwargs)
+TypeError: alarm_notification() takes 1 positional argument but 25 were given
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 15:36:57] "[35m[1mGET /index?alarm=2020-12-02T15%3A35&two=+ HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 15:50:22] "[32mGET / HTTP/1.1[0m" 302 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaName=Exeter&structure=%7B%22date%22:%22date%22,%22newCases%22:%22newCasesByPublishDate%22%7D HTTP/1.1" 200 None
+ERROR:root:PyTTSx3 Endloop error
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 15:50:23] "[37mGET /index HTTP/1.1[0m" 200 -
+ERROR:main:Exception on /index [GET]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/charliewright/Documents/Exeter/Year 1/Programming/Continuous Assignments/CA3/main.py", line 66, in schedule_event
+    noti
+NameError: name 'noti' is not defined
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 15:50:31] "[35m[1mGET /index?alarm=2020-12-02T15%3A51&two=+ HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 15:52:09] "[32mGET / HTTP/1.1[0m" 302 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaName=Exeter&structure=%7B%22date%22:%22date%22,%22newCases%22:%22newCasesByPublishDate%22%7D HTTP/1.1" 200 None
+ERROR:root:PyTTSx3 Endloop error
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 15:52:09] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 15:52:14] "[37mGET /index?alarm=2020-12-02T15%3A53&two=+ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 15:53:14] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 15:54:14] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 15:55:14] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 15:55:32] "[32mGET / HTTP/1.1[0m" 302 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaName=Exeter&structure=%7B%22date%22:%22date%22,%22newCases%22:%22newCasesByPublishDate%22%7D HTTP/1.1" 200 None
+ERROR:root:PyTTSx3 Endloop error
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 15:55:32] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 15:55:37] "[37mGET /index?alarm=2020-12-02T15%3A56&two=alarm HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 15:56:38] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 15:56:53] "[37mGET /index?alarm_item=alarm HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 15:57:01] "[37mGET /index?alarm=2020-12-02T15%3A55&two=Hello HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 15:57:06] "[37mGET /index?alarm=2020-12-02T15%3A55&two=Hello HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 15:57:08] "[37mGET /index?alarm=2020-12-02T15%3A55&two=Hello HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 15:57:09] "[37mGET /index?alarm=2020-12-02T15%3A55&two=Hello HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 15:57:11] "[37mGET /index?alarm_item=Hello HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 15:57:12] "[37mGET /index?alarm_item=Hello HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 15:57:12] "[37mGET /index?alarm_item=Hello HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 15:57:15] "[37mGET /index?notif=Latest+covid+data+in+your+area HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaName=Exeter&structure=%7B%22date%22:%22date%22,%22newCases%22:%22newCasesByPublishDate%22%7D HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 15:57:17] "[37mGET /index?alarm=&two=+ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 15:57:23] "[37mGET /index?alarm=2020-12-02T15%3A58&two=+ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 15:57:25] "[37mGET /index?alarm=2020-12-02T15%3A58&two=+ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 15:57:27] "[37mGET /index?alarm_item=+ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 15:57:27] "[37mGET /index?alarm_item=+ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 15:57:31] "[37mGET /index?alarm=2020-12-02T15%3A58&two=+ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 15:57:39] "[37mGET /index?alarm=2020-12-02T15%3A56&two=alarm HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 15:57:46] "[37mGET /index?alarm_item=+ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 15:57:48] "[37mGET /index?alarm_item=alarm HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 17:15:41] "[32mGET / HTTP/1.1[0m" 302 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaName=Exeter&structure=%7B%22date%22:%22date%22,%22newCases%22:%22newCasesByPublishDate%22%7D HTTP/1.1" 200 None
+ERROR:root:PyTTSx3 Endloop error
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 17:15:42] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 17:15:50] "[37mGET /index?notif=Latest+covid+data+in+your+area HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaName=Exeter&structure=%7B%22date%22:%22date%22,%22newCases%22:%22newCasesByPublishDate%22%7D HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 17:15:53] "[37mGET /index?alarm=&two=+ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 17:15:58] "[37mGET /index?alarm=2020-12-02T17%3A16&two=+ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 17:16:59] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 17:17:02] "[37mGET /index?alarm_item=+ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 17:18:02] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 17:18:32] "[37mGET /index?alarm=2020-12-02T17%3A19&two=+ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 17:19:32] "[37mGET /index HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:urllib3.connectionpool:https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=f6057a276c3e43d29f2465e8f2fd4d87 HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 17:19:41] "[37mGET /index?alarm=&two=+&news=news HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.openweathermap.org:80
+DEBUG:urllib3.connectionpool:http://api.openweathermap.org:80 "GET /data/2.5/weather?appid=cf1a49edc39397b744e3896a6e478407&q=Exeter HTTP/1.1" 200 468
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 17:19:51] "[37mGET /index?alarm=&two=+&weather=weather HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 17:21:04] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 17:22:04] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 17:23:04] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 17:24:04] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 17:24:51] "[37mGET /index?alarm_item=+ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 17:25:52] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 17:26:52] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 17:27:48] "[32mGET / HTTP/1.1[0m" 302 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaName=Exeter&structure=%7B%22date%22:%22date%22,%22newCases%22:%22newCasesByPublishDate%22%7D HTTP/1.1" 200 None
+ERROR:root:PyTTSx3 Endloop error
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 17:27:48] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 17:27:56] "[37mGET /index?alarm=2020-12-02T17%3A28&two=+ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 17:28:01] "[37mGET /index?notif=This+is+an+alarm+notification HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 17:28:05] "[37mGET /index?alarm_item=+ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 17:28:13] "[37mGET /index?alarm=2020-12-02T17%3A29&two=+ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 17:28:16] "[37mGET /index?notif=This+is+an+alarm+notification HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 17:28:18] "[37mGET /index?alarm_item=+ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 17:28:23] "[37mGET /index?alarm=2020-12-02T17%3A29&two=+ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 17:28:25] "[37mGET /index?notif=This+is+an+alarm+notification HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 17:28:28] "[37mGET /index?alarm_item=+ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 17:28:32] "[37mGET /index?alarm=2020-12-02T17%3A30&two=+ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 17:28:35] "[37mGET /index?notif=This+is+an+alarm+notification HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 17:28:39] "[37mGET /index?alarm_item=+ HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:urllib3.connectionpool:https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=f6057a276c3e43d29f2465e8f2fd4d87 HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 17:28:46] "[37mGET /index?alarm=&two=+&news=news HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.openweathermap.org:80
+DEBUG:urllib3.connectionpool:http://api.openweathermap.org:80 "GET /data/2.5/weather?appid=cf1a49edc39397b744e3896a6e478407&q=Exeter HTTP/1.1" 200 468
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 17:28:55] "[37mGET /index?alarm=&two=+&weather=weather HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 17:30:08] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 17:31:08] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 17:32:08] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 17:33:10] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 17:34:10] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 17:35:10] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 17:36:10] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 17:37:11] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 17:38:11] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaName=Exeter&structure=%7B%22date%22:%22date%22,%22newCases%22:%22newCasesByPublishDate%22%7D HTTP/1.1" 200 None
+ERROR:root:PyTTSx3 Endloop error
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 17:39:12] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 17:39:22] "[37mGET /index?alarm=2020-12-02T17%3A40&two=+ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 17:39:29] "[37mGET /index?notif=This+is+an+alarm+notification HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 17:39:31] "[37mGET /index?alarm_item=+ HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:urllib3.connectionpool:https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=f6057a276c3e43d29f2465e8f2fd4d87 HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 17:39:36] "[37mGET /index?alarm=&two=+&news=news HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.openweathermap.org:80
+DEBUG:urllib3.connectionpool:http://api.openweathermap.org:80 "GET /data/2.5/weather?appid=cf1a49edc39397b744e3896a6e478407&q=Exeter HTTP/1.1" 200 468
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 17:39:52] "[37mGET /index?alarm=&two=+&weather=weather HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 17:39:59] "[37mGET /index?notif=The+weather+in+Exeter%3A HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 17:41:56] "[32mGET / HTTP/1.1[0m" 302 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaName=Exeter&structure=%7B%22date%22:%22date%22,%22newCases%22:%22newCasesByPublishDate%22%7D HTTP/1.1" 200 None
+ERROR:root:PyTTSx3 Endloop error
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 17:41:56] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 17:42:05] "[37mGET /index?alarm=2020-12-02T17%3A42&two=alarm HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 17:42:15] "[37mGET /index?alarm=2020-12-02T17%3A41&two=Hello HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 17:42:27] "[37mGET /index?notif=This+is+an+alarm+notification HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 17:42:35] "[37mGET /index?alarm=2020-12-02T17%3A44&two=+ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 17:42:44] "[37mGET /index?alarm=2020-12-02T14%3A42&two=+ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 17:42:54] "[37mGET /index?notif=This+is+an+alarm+notification HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 17:42:56] "[37mGET /index?notif=This+is+an+alarm+notification HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 17:42:58] "[37mGET /index?alarm_item=alarm HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 17:42:59] "[37mGET /index?alarm_item=Hello HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 17:42:59] "[37mGET /index?alarm_item=+ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 17:43:00] "[37mGET /index?alarm_item=+ HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:urllib3.connectionpool:https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=f6057a276c3e43d29f2465e8f2fd4d87 HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 17:43:03] "[37mGET /index?alarm=&two=+&news=news HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.openweathermap.org:80
+DEBUG:urllib3.connectionpool:http://api.openweathermap.org:80 "GET /data/2.5/weather?appid=cf1a49edc39397b744e3896a6e478407&q=Exeter HTTP/1.1" 200 468
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 17:43:11] "[37mGET /index?alarm=&two=+&weather=weather HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 17:43:20] "[37mGET /index?notif=Insolvency+Service+asked+to+probe+conduct+of+Arcadia+directors+–+live+updates+-+Telegraph.co.uk HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 17:43:20] "[37mGET /index?notif=Matt+Hancock+offers+to+take+the+coronavirus+vaccine+live+on+air+with+Piers+Morgan+to+prove+its+safe+-+Daily+Mail HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 17:43:21] "[37mGET /index?notif=When+and+how+will+I+be+able+to+get+a+Covid+vaccine+in+the+UK%3F+-+The+Guardian HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 17:43:21] "[37mGET /index?notif=Brexit%3A+UK+has+lowered+demands+on+fish+catches%2C+says+EU+-+The+Guardian HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 17:43:22] "[37mGET /index?notif=POWER+RANKINGS%3A+Who+did+our+panel+rate+as+the+Top+10+drivers+in+Bahrain%3F+-+Formula+1+RSS+UK HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 17:43:22] "[37mGET /index?notif=‘I’m+the+people%27s+champion’%3A+Tyson+Fury+asks+BBC+to+take+him+off+Spoty+list+-+The+Guardian HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 17:43:23] "[37mGET /index?notif=Dead+Cells+Unveils+Second+Major+DLC+Expansion+%27Fatal+Falls%27+-+Nintendo+Life HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 17:43:24] "[37mGET /index?notif=Nicola+Sturgeon+confirms+date+for+first+covid+vaccine+in+Scotland+-+Daily+Record HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 17:43:24] "[37mGET /index?notif=Bonmarché+collapses+into+administration+-+BBC+News HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 17:43:25] "[37mGET /index?notif=PS5+comes+out+top+in+massive+month+for+console+sales+%7C+UK+Monthly+Charts+-+GamesIndustry.biz HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 17:43:25] "[37mGET /index?notif=Ethiopia+gives+UN+‘unimpeded’+access+to+Tigray+to+deliver+aid+-+Aljazeera.com HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 17:43:26] "[37mGET /index?notif=Coronavirus+vaccine%3A+Robin+Swann+statement+on+roll-out+in+Northern+Ireland+-+Belfast+Live HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 17:43:26] "[37mGET /index?notif=Michael+Schumacher%27s+son+secures+F1+place+-+saying+he+owes+his+parents+%27everything%27+-+Sky+News HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 17:43:27] "[37mGET /index?notif=Deportation+flight+to+Jamaica+departs+without+37+of+the+50+passengers+due+to+fly+-+Sky+News HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 17:43:27] "[37mGET /index?notif=Tesco+to+repay+£585m+in+business+rates+relief+-+BBC+News HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 17:43:28] "[37mGET /index?notif=The+risk+and+reward+of+Russell%27s+Mercedes+opportunity+-+F1+-+autosport.com HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 17:43:28] "[37mGET /index?notif=Shops%2C+pubs+and+gyms+reopen+under+tier+system+as+shops+prepare+for+%27Wild+Wednesday%27+-+Telegraph.co.uk HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 17:43:29] "[37mGET /index?notif=Chinese+probe+digs+up+rocks+on+the+moon+-+The+Times HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 17:43:30] "[37mGET /index?notif=Hong+Kong+activist+Joshua+Wong+jailed+for+13+and+a+half+months+over+protest+-+The+Guardian HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 17:43:30] "[37mGET /index?notif=British+hiker+missing+in+Pyrenees+is+not+in+the+mountains%2C+rescuers+believe+-+Daily+Mail HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 17:43:32] "[37mGET /index?notif=The+weather+in+Exeter%3A HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 17:43:33] "[37mGET /index?notif=Latest+covid+data+in+your+area HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaName=Exeter&structure=%7B%22date%22:%22date%22,%22newCases%22:%22newCasesByPublishDate%22%7D HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 17:43:35] "[37mGET /index?notif=Latest+covid+data+in+your+area HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaName=Exeter&structure=%7B%22date%22:%22date%22,%22newCases%22:%22newCasesByPublishDate%22%7D HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 17:43:41] "[37mGET /index?alarm=&two=+ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 17:43:47] "[37mGET /index?notif=Latest+covid+data+in+your+area HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaName=Exeter&structure=%7B%22date%22:%22date%22,%22newCases%22:%22newCasesByPublishDate%22%7D HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 17:43:49] "[37mGET /index?alarm=&two=+ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 17:43:57] "[37mGET /index?alarm=&two=+ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 17:43:59] "[37mGET /index?alarm=&two=+ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 17:44:03] "[37mGET /index?notif=Latest+covid+data+in+your+area HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 17:45:25] "[32mGET / HTTP/1.1[0m" 302 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaName=Exeter&structure=%7B%22date%22:%22date%22,%22newCases%22:%22newCasesByPublishDate%22%7D HTTP/1.1" 200 None
+ERROR:root:PyTTSx3 Endloop error
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 17:45:25] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 17:45:32] "[37mGET /index?alarm=2020-12-02T17%3A46&two=+ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 17:46:32] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 17:46:37] "[37mGET /index?notif=This+is+an+alarm+notification HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 17:46:38] "[37mGET /index?alarm_item=+ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 17:46:42] "[37mGET /index?alarm=2020-12-02T17%3A47&two=+ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 17:46:45] "[37mGET /index?notif=This+is+an+alarm+notification HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 17:46:47] "[37mGET /index?alarm_item=+ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 17:47:47] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 17:48:48] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 17:49:48] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 17:50:48] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 17:51:48] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 17:52:48] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 17:53:48] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 17:54:48] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 17:56:43] "[32mGET / HTTP/1.1[0m" 302 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaName=Exeter&structure=%7B%22date%22:%22date%22,%22newCases%22:%22newCasesByPublishDate%22%7D HTTP/1.1" 200 None
+ERROR:root:PyTTSx3 Endloop error
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 17:56:43] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 17:56:48] "[37mGET /index?alarm=2020-12-02T17%3A57&two=+ HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:urllib3.connectionpool:https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=f6057a276c3e43d29f2465e8f2fd4d87 HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 17:56:57] "[37mGET /index?alarm=&two=+&news=news HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 17:57:40] "[37mGET /index?notif=Insolvency+Service+asked+to+probe+conduct+of+Arcadia+directors+–+live+updates+-+Telegraph.co.uk HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 17:57:41] "[37mGET /index?notif=Matt+Hancock+offers+to+take+the+coronavirus+vaccine+live+on+air+with+Piers+Morgan+to+prove+its+safe+-+Daily+Mail HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 17:57:42] "[37mGET /index?notif=When+and+how+will+I+be+able+to+get+a+Covid+vaccine+in+the+UK%3F+-+The+Guardian HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 17:57:42] "[37mGET /index?notif=Brexit%3A+UK+has+lowered+demands+on+fish+catches%2C+says+EU+-+The+Guardian HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 17:57:43] "[37mGET /index?notif=POWER+RANKINGS%3A+Who+did+our+panel+rate+as+the+Top+10+drivers+in+Bahrain%3F+-+Formula+1+RSS+UK HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 17:57:58] "[37mGET /index?alarm=2020-12-02T17%3A58&two=+ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 17:58:23] "[37mGET /index?alarm_item=+ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 17:58:27] "[37mGET /index?notif=This+is+an+alarm+notification HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 17:58:29] "[37mGET /index?notif=This+is+an+alarm+notification HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.openweathermap.org:80
+DEBUG:urllib3.connectionpool:http://api.openweathermap.org:80 "GET /data/2.5/weather?appid=cf1a49edc39397b744e3896a6e478407&q=Exeter HTTP/1.1" 200 468
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 17:58:32] "[37mGET /index?alarm=&two=+&weather=weather HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 17:58:35] "[37mGET /index?alarm_item=+ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 17:58:36] "[37mGET /index?notif=The+weather+in+Exeter%3A HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 17:58:37] "[37mGET /index?notif=Latest+covid+data+in+your+area HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2020 17:58:39] "[37mGET /index?notif=‘I’m+the+people%27s+champion’%3A+Tyson+Fury+asks+BBC+to+take+him+off+Spoty+list+-+The+Guardian HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2020 12:26:31] "[32mGET / HTTP/1.1[0m" 302 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaName=Exeter&structure=%7B%22date%22:%22date%22,%22newCases%22:%22newCasesByPublishDate%22%7D HTTP/1.1" 200 None
+ERROR:root:PyTTSx3 Endloop error
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2020 12:26:32] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2020 12:26:32] "[36mGET /static/images/COVID.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2020 12:26:40] "[37mGET /index?alarm=2020-12-03T12%3A27&two=+ HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:urllib3.connectionpool:https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=f6057a276c3e43d29f2465e8f2fd4d87 HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2020 12:26:46] "[37mGET /index?alarm=&two=+&news=news HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2020 12:27:05] "[37mGET /index?notif=This+is+an+alarm+notification HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2020 12:27:08] "[37mGET /index?alarm_item=+ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2020 12:27:13] "[37mGET /index?alarm=2020-12-03T12%3A28&two=alarm HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaName=Exeter&structure=%7B%22date%22:%22date%22,%22newCases%22:%22newCasesByPublishDate%22%7D HTTP/1.1" 200 None
+ERROR:root:PyTTSx3 Endloop error
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.openweathermap.org:80
+DEBUG:urllib3.connectionpool:http://api.openweathermap.org:80 "GET /data/2.5/weather?appid=cf1a49edc39397b744e3896a6e478407&q=Exeter HTTP/1.1" 200 461
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2020 12:27:48] "[37mGET /index?alarm=&two=+&weather=weather HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2020 12:28:14] "[32mGET / HTTP/1.1[0m" 302 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaName=Exeter&structure=%7B%22date%22:%22date%22,%22newCases%22:%22newCasesByPublishDate%22%7D HTTP/1.1" 200 None
+ERROR:root:PyTTSx3 Endloop error
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2020 12:28:15] "[37mGET /index HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.openweathermap.org:80
+DEBUG:urllib3.connectionpool:http://api.openweathermap.org:80 "GET /data/2.5/weather?appid=cf1a49edc39397b744e3896a6e478407&q=Exeter HTTP/1.1" 200 461
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2020 12:28:18] "[37mGET /index?alarm=&two=+&weather=weather HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2020 12:28:22] "[37mGET /index?alarm=2020-12-03T12%3A29&two=+ HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2020 12:28:50] "[37mGET /index?alarm=2020-12-03T12%3A29&two=+ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2020 12:28:54] "[32mGET / HTTP/1.1[0m" 302 -
+ERROR:root:PyTTSx3 Endloop error
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2020 12:28:54] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2020 12:29:18] "[32mGET / HTTP/1.1[0m" 302 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaName=Exeter&structure=%7B%22date%22:%22date%22,%22newCases%22:%22newCasesByPublishDate%22%7D HTTP/1.1" 200 None
+ERROR:root:PyTTSx3 Endloop error
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2020 12:29:19] "[37mGET /index HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:urllib3.connectionpool:https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=f6057a276c3e43d29f2465e8f2fd4d87 HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2020 12:29:26] "[37mGET /index?alarm=&two=+&news=news HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.openweathermap.org:80
+DEBUG:urllib3.connectionpool:http://api.openweathermap.org:80 "GET /data/2.5/weather?appid=cf1a49edc39397b744e3896a6e478407&q=Exeter HTTP/1.1" 200 461
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2020 12:29:39] "[37mGET /index?alarm=&two=+&weather=weather HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2020 12:29:54] "[37mGET /index?alarm=2020-12-03T12%3A30&two=+ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2020 12:30:05] "[37mGET /index?alarm=2020-12-03T12%3A32&two=alarm HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2020 12:30:13] "[37mGET /index?notif=This+is+an+alarm+notification HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2020 12:30:16] "[37mGET /index?alarm_item=+ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2020 12:30:19] "[37mGET /index?alarm_item=alarm HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2020 12:30:21] "[37mGET /index?notif=This+is+an+alarm+notification HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2020 12:30:26] "[37mGET /index?alarm=2020-12-03T12%3A32&two=Alarm+2 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2020 12:31:27] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2020 12:31:36] "[37mGET /index?notif=This+is+an+alarm+notification HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2020 12:31:38] "[37mGET /index?alarm_item=Alarm+2 HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2020 17:14:39] "[32mGET / HTTP/1.1[0m" 302 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaName=Exeter&structure=%7B%22date%22:%22date%22,%22newCases%22:%22newCasesByPublishDate%22%7D HTTP/1.1" 200 None
+ERROR:root:PyTTSx3 Endloop error
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2020 17:14:39] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2020 17:14:49] "[37mGET /index?alarm=2020-12-03T17%3A15&two=Hello HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2020 17:15:09] "[37mGET /index?notif=This+is+an+alarm+notification HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2020 17:15:10] "[37mGET /index?alarm_item=Hello HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:urllib3.connectionpool:https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=f6057a276c3e43d29f2465e8f2fd4d87 HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2020 17:15:15] "[37mGET /index?alarm=&two=+&news=news HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2020 17:16:28] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2020 17:17:28] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2020 17:18:28] "[37mGET /index HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.openweathermap.org:80
+DEBUG:urllib3.connectionpool:http://api.openweathermap.org:80 "GET /data/2.5/weather?appid=cf1a49edc39397b744e3896a6e478407&q=Exeter HTTP/1.1" 200 461
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2020 17:18:46] "[37mGET /index?alarm=&two=+&weather=weather HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2020 17:19:47] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2020 17:20:49] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2020 17:21:49] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2020 17:22:49] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2020 17:23:26] "[37mGET /index?alarm=2020-12-03T17%3A24&two=alarm HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2020 17:24:26] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2020 17:24:29] "[37mGET /index?notif=This+is+an+alarm+notification HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2020 17:24:31] "[37mGET /index?alarm_item=alarm HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2020 17:24:43] "[37mGET /index?notif=Education+secretary+Gavin+Williamson+says+Eton+should+accept+girls+-+Daily+Mail HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2020 17:25:45] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2020 17:55:46] "[32mGET / HTTP/1.1[0m" 302 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaName=Exeter&structure=%7B%22date%22:%22date%22,%22newCases%22:%22newCasesByPublishDate%22%7D HTTP/1.1" 200 None
+ERROR:root:PyTTSx3 Endloop error
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2020 17:55:47] "[37mGET /index HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:urllib3.connectionpool:https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=f6057a276c3e43d29f2465e8f2fd4d87 HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2020 17:55:53] "[37mGET /index?alarm=&two=+&news=news HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2020 17:56:53] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2020 17:57:13] "[32mGET / HTTP/1.1[0m" 302 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaName=Exeter&structure=%7B%22date%22:%22date%22,%22newCases%22:%22newCasesByPublishDate%22%7D HTTP/1.1" 200 None
+ERROR:root:PyTTSx3 Endloop error
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2020 17:57:13] "[37mGET /index HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:urllib3.connectionpool:https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=f6057a276c3e43d29f2465e8f2fd4d87 HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2020 17:57:17] "[37mGET /index?alarm=&two=+&news=news HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2020 17:58:17] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2020 10:11:41] "[32mGET / HTTP/1.1[0m" 302 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaName=Exeter&structure=%7B%22date%22:%22date%22,%22newCases%22:%22newCasesByPublishDate%22%7D HTTP/1.1" 200 None
+ERROR:root:PyTTSx3 Endloop error
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2020 10:11:42] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2020 10:11:42] "[36mGET /static/images/COVID.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2020 10:11:49] "[37mGET /index?alarm=2020-12-04T10%3A12&two=+ HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:urllib3.connectionpool:https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=f6057a276c3e43d29f2465e8f2fd4d87 HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2020 10:12:12] "[37mGET /index?alarm=&two=+&news=news HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2020 10:12:21] "[37mGET /index?notif=This+is+an+alarm+notification HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2020 10:12:22] "[37mGET /index?alarm_item=+ HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.openweathermap.org:80
+DEBUG:urllib3.connectionpool:http://api.openweathermap.org:80 "GET /data/2.5/weather?appid=cf1a49edc39397b744e3896a6e478407&q=Exeter HTTP/1.1" 200 482
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2020 10:12:37] "[37mGET /index?alarm=&two=+&weather=weather HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2020 10:12:55] "[37mGET /index?notif=The+weather+in+Exeter%3A HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2020 10:13:31] "[32mGET / HTTP/1.1[0m" 302 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaName=Exeter&structure=%7B%22date%22:%22date%22,%22newCases%22:%22newCasesByPublishDate%22%7D HTTP/1.1" 200 None
+ERROR:root:PyTTSx3 Endloop error
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2020 10:13:32] "[37mGET /index HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.openweathermap.org:80
+DEBUG:urllib3.connectionpool:http://api.openweathermap.org:80 "GET /data/2.5/weather?appid=cf1a49edc39397b744e3896a6e478407&q=London HTTP/1.1" 200 466
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2020 10:13:37] "[37mGET /index?alarm=&two=+&weather=weather HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:urllib3.connectionpool:https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=f6057a276c3e43d29f2465e8f2fd4d87 HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2020 10:13:47] "[37mGET /index?alarm=&two=+&news=news HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2020 10:13:54] "[37mGET /index?alarm=2020-12-04T10%3A12&two=+ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2020 10:13:59] "[37mGET /index?alarm=2020-12-04T10%3A12&two=+ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2020 10:14:01] "[37mGET /index?alarm_item=+ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2020 10:14:02] "[37mGET /index?alarm_item=+ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2020 10:14:03] "[37mGET /index?notif=This+is+an+alarm+notification HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Dec/2020 10:14:04] "[37mGET /index?notif=This+is+an+alarm+notification HTTP/1.1[0m" 200 -
