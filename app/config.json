@@ -1,12 +1,12 @@
 {
 "weather": {
       "base_url":"http://api.openweathermap.org/data/2.5/weather?",
-      "api-key":"cf1a49edc39397b744e3896a6e478407",
+      "api-key":"enter api key here",
       "city":"Exeter"
       },
 "news": {
       "base_url":"https://newsapi.org/v2/top-headlines?",
-      "api-key":"f6057a276c3e43d29f2465e8f2fd4d87",
+      "api-key":"enter api key here",
       "country":"gb",
       "source":""
       },
